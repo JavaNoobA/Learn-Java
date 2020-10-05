@@ -7,6 +7,14 @@
     <groupId>org.example</groupId>
     <artifactId>javase</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.2.8.RELEASE</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
